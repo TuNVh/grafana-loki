@@ -20,6 +20,8 @@ unzip loki-linux-amd64.zip
 sudo mv loki-linux-amd64 /usr/local/bin/loki
 sudo mkdir /etc/loki
 sudo mkdir -p /data/loki
+```
+```
 sudo vi /etc/loki-local-config.yaml
 
 auth_enabled: false
